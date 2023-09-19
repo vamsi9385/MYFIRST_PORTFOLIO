@@ -1,0 +1,130 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: auto;
+}
+.header{
+    text-align: center;
+    color: rgb(194, 40, 40);
+}
+.ABOUT{
+    display: flex;  
+    justify-content: center;
+    list-style: none;
+    color: rgb(11, 0, 0);
+    background-color:rgba(255, 0, 0, 0.5);
+    border-radius: 50px;
+    width:10;
+}
+.ABOUT li{
+    margin: 0 2rem;    
+}
+
+.image{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    
+}
+.image-border{
+    border-radius: 30px;
+    outline: auto;
+    outline-color: rgb(207, 42, 42);
+}
+
+.image-text{    
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 100px;
+    list-style: decimal-leading-zero;
+    font-style: italic;
+    
+}
+
+.image-text1{
+    text-align: left;
+}
+
+.image-text li{
+    font-weight:bolder;
+}
+
+.skills{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+.skills-known {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    list-style:none;
+}
+.paragraph{
+    display: flex;
+}
+.contactdetails{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 1, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.projectdetails{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(231, 12, 12);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.resumedetails{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.projectinfo{
+    text-align: center;
+    font-weight: bold;
+}
+.contactimg{
+    text-align: center;    
+}
+.skillimage{
+    width: 20px;
+}
+.basicdetails{
+    text-align: center;
+}
+.contactimg{
+    list-style: none;
+}
+.contactentry{  
+text-align: center;
+position: relative;
+width: 500px;
+height: 250px;
+background: #d300004c;
+border-radius: 30px;
+
+
+}
+.contactentry h2{
+    color: red;
+}
+.contactinfo{
+    padding-left: 350px;
+    align-items: center;
+    display: flex;
+}
+.enterdetails{
+    text-align: center;
+}
+.contact1{
+    text-align: center;
+}
